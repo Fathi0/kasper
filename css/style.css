@@ -1,0 +1,360 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.bg-color {
+  background-color: #16677d;
+}
+.color {
+  color: #16677d;
+}
+/* start navbar */
+#nav .search {
+  position: relative;
+  padding-left: 20px;
+}
+#nav .search::after {
+  content: "";
+  width: 2px;
+  height: 36px;
+  background-color: #fff;
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+#nav .brd {
+  border-bottom: 1px solid #fff;
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  color: #16677d !important;
+}
+/* end navbar */
+/* start home */
+.navbar-toggler{
+  background-color: #fff;
+}
+#home {
+  height: 100vh;
+  background-image: linear-gradient(#0000009f, #0000009f),
+    url(../images/landing.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.arrow-left {
+  right: 21px;
+  position: absolute;
+  color: #fff;
+  font-size: 34px;
+  top: 55%;
+}
+.arrow-right {
+  left: 21px;
+  position: absolute;
+  color: #fff;
+  font-size: 34px;
+  top: 55%;
+}
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+.dot-1,
+.dot-2,
+.dot-3 {
+  padding-left: 5px;
+}
+/* end home */
+/* start services */
+#srv .fathi{
+    position: relative; 
+}
+#srv .fathi::after{
+  content: "";
+  background-color: #000;
+  width: 22%;
+  height: 2px;
+  position: absolute;
+  top: 128%;
+  left: 39%;
+
+}
+#srv .fathi i{
+  position: absolute;
+  top: 101%;
+  left: 49%;
+  font-size: 25px;
+}
+.fathi h2{
+  font-size: 40px;
+  font-weight: 400;
+}
+.items i{
+  font-size: 48px;
+}
+#srv .mobile{
+  background-image: url(../images/design-features.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center center;
+}
+.mobile img{
+  top: 37%;
+  left: 13%;
+
+}
+#srv .back{
+  position: relative;
+  top: 14%;
+}
+
+/* end services */
+/* start portfolio */
+#portfolio .fathi{
+  position: relative; 
+}
+#portfolio .fathi::after{
+content: "";
+background-color: #000;
+width: 22%;
+height: 2px;
+position: absolute;
+top: 128%;
+left: 39%;
+
+}
+#portfolio .fathi i{
+position: absolute;
+top: 101%;
+left: 49%;
+font-size: 25px;
+}
+.img-rot:hover{
+  transform: rotate(5deg) scale(1.1);
+}
+.img-rot{
+  transition: all .2s;
+  position: relative;
+}
+.flex{
+  position: relative;
+}
+.flex::after{
+  content: "Awesome Image";
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #fff;
+  top: 100%;
+  left: -2px;
+  transition: all 0.2s;
+
+  padding-top: 13px;
+}
+.flex:hover::after{
+  top: 72% ;
+}
+
+.layer{
+  position: absolute;
+}
+/* end portfolio */
+/* strat vedio */
+.vedio{
+  position: relative;
+}
+.vedio::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  width: 100%;
+  height: 95%;
+}
+/* end vedio */
+/* start about */
+.about .fathi{
+  position: relative; 
+}
+.about .fathi::after{
+content: "";
+background-color: #000;
+width: 22%;
+height: 2px;
+position: absolute;
+top: 128%;
+left: 39%;
+
+}
+.about .fathi i{
+position: absolute;
+top: 101%;
+left: 49%;
+font-size: 25px;
+}
+.talk h3{
+  font-size: 50px;
+  font-weight: 700;
+}
+.us{
+  background-image: linear-gradient(#00000092,#00000092), url(../images/stats.png);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.about .row{
+  background-color: #1B567A;
+  
+}
+.lap{
+  
+  top: 131px;
+  left: 0;
+}
+.skill-img{
+  border-radius: 50%;
+}
+.dots-skills {
+position: relative;
+left: 20%;
+}
+.dot-1-skills,
+.dot-2-skills,
+.dot-3-skills {
+  padding-left: 5px;
+}
+.biood{
+  background-image: linear-gradient(#00000092,#00000092), url(../images/quote.jpg);
+  /* background-position: center center; */
+  background-size: cover;
+  height: 40vh;
+}
+/* end about */
+/* satrt price */
+#price .fathi{
+  position: relative; 
+}
+#price .fathi::after{
+content: "";
+background-color: #000;
+width: 22%;
+height: 2px;
+position: absolute;
+top: 128%;
+left: 39%;
+
+}
+#price .fathi i{
+position: absolute;
+top: 101%;
+left: 49%;
+font-size: 25px;
+}
+#price .brd{
+  border-top: 1px solid #32bde3 ;
+  
+}
+#price h4{
+  font-size: 60px;
+  font-weight: 700;
+}
+#price h4 span{
+  font-size: 16px;
+}
+.cardd{
+  background-color: #FCFCFC;
+}
+.lable p{
+  font-size:  20px;
+  font-weight: 700;
+}
+#price .form{
+  background-image: linear-gradient(#0000008c,#0000008c), url(../images/subscribe.jpg);
+  height: 40vh;
+}
+
+.sub-coltrol{
+  z-index: 88;
+}
+/* end price
+ */
+ /* satrt contact */
+ #contact .fathi{
+  position: relative; 
+}
+#contact .fathi::after{
+content: "";
+background-color: #000;
+width: 22%;
+height: 2px;
+position: absolute;
+top: 128%;
+left: 39%;
+
+}
+#contact .fathi i{
+position: absolute;
+top: 101%;
+left: 49%;
+font-size: 25px;
+}
+ /* end contact */
+ /* start footer */
+ .foot  {
+  background-image:linear-gradient(#00000087,#00000087), url(../images/subscribe.jpg);
+  background-size: cover;
+ }
+ /* end footer */
+@media screen and (max-width: 990px) and (min-width: 50px) {
+  #nav .search:after {
+    content: "";
+    width: 61px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: -2px;
+    left: -1px;
+  }
+  #nav .brd {
+    border-bottom: none;
+  }
+  .arrow-left {
+    display: none;
+  }
+  .arrow-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 780px) and (min-width: 50px) {
+  .caption {
+    width: 100% !important;
+  }
+  .lap{
+    top:37px
+  }
+
+@media screen and (max-width: 767px) and (min-width: 50px) {
+
+  .skill-img{
+    width: 25% !important;
+  }
+  .cardd{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  #srv .back{
+    position: relative;
+    top: 0%;
+    width: 100% !important;
+  }
+  #srv .mobile-img{
+    display: none;
+  }
+}
+}
